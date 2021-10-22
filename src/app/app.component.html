@@ -1,9 +1,8 @@
 <div class="container">
-  <a routerLink="/">Go home</a>
-  <a routerLink="/parallax">See parallax</a>
-  <a routerLink="/fade">See fade</a>
-  <a routerLink="/slide">See slide</a>
+  <a (click)="changeOfRoutes(0)" routerLink="/">Go home</a>
+  <a (click)="changeOfRoutes(1)" routerLink="/parallax">See parallax</a>
+  <a (click)="changeOfRoutes(2)" routerLink="/fade">See fade</a>
+  <a (click)="changeOfRoutes(3)" routerLink="/slide">See slide</a>
 </div>
-<h1 *ngIf="isAtHome">Click the link above</h1>
-<router-outlet>
-</router-outlet>
+<h1 *ngIf="isAtHome">Click the above links</h1>
+<router-outlet></router-outlet>

@@ -30,7 +30,7 @@ export class FadeComponent implements OnInit {
           end: () => (i + 0.5) * innerHeight,
           // when a new section activates (from either direction), set the section accordingly.
           onToggle: self => self.isActive && this.setCurrentSection(section),
-          markers: true
+          // markers: true
         }
       });
     });

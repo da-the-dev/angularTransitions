@@ -25,7 +25,7 @@ export class ParralaxComponent implements OnInit {
         scrollTrigger: {
           trigger: section,
           scrub: true,
-          markers: true
+          // markers: true
         }
       })
     })
