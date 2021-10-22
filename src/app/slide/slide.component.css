@@ -1,0 +1,21 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    height: 100vh;
+    margin: 0;
+    padding: 1rem;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    color: white;
+
+    font-size: 1cm;
+}
