@@ -1,0 +1,17 @@
+.container {
+    /* width: 100vw; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background: #202020;
+    border: solid #202020;
+    
+}
+
+a:link, 
+a:visited {
+    font: 1em sans-serif;
+    margin: 1rem auto;
+    color: #fff;
+    text-decoration: none;
+}
